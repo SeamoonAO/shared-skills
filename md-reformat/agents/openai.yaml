@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdown Reformat"
+  short_description: "Reorder sections, normalize lists, merge duplicates, and fix logic and typos"
+  default_prompt: "Please reformat this Markdown document for structure, consistency, and clarity"

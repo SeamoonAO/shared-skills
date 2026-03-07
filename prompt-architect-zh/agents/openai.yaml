@@ -1,0 +1,4 @@
+interface:
+  display_name: "提示词架构师"
+  short_description: "通过追问与结构化设计，将模糊需求优化为可复制的高质量提示词"
+  default_prompt: "请把我的需求一步步澄清并重构为结构化提示词"
