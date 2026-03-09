@@ -1,0 +1,4 @@
+interface:
+  display_name: "多稿合并"
+  short_description: "将多份草稿融合为一篇结构统一、表达一致的终稿"
+  default_prompt: "请帮我把这几份草稿合并成一篇完整、统一、可直接发布的文章"
