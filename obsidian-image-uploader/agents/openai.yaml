@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian 图床上传"
+  short_description: "将 Obsidian Markdown 本地图片上传到图床并替换为公网链接"
+  default_prompt: "使用 $obsidian-image-uploader 设计或实现一个将 Obsidian Markdown 本地图片批量上传并替换链接的 TypeScript Skill。"

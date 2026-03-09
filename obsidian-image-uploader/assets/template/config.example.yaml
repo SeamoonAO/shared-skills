@@ -1,0 +1,42 @@
+# 核心配置
+DEFAULT_UPLOADER: "S3"
+CONCURRENCY: 3
+OUTPUT_SUFFIX: "_post"
+OBSIDIAN_VAULT_ROOT: "/absolute/path/to/your/obsidian/vault"
+MOCK_BASE_URL: "https://cdn.example.com/mock"
+
+# 0. 通用 S3 配置
+S3_ENDPOINT_URL: "https://your-s3-endpoint.example.com"
+S3_ACCESS_KEY_ID: "your_s3_access_key"
+S3_SECRET_ACCESS_KEY: "your_s3_secret_key"
+S3_BUCKET_NAME: "your_bucket"
+S3_PUBLIC_BASE_URL: "https://your-public-cdn-domain"
+S3_KEY_PREFIX: "obsidian"
+
+# 1. Cloudflare R2 配置
+R2_ENDPOINT: "https://<account_id>.r2.cloudflarestorage.com"
+R2_ACCESS_KEY_ID: "your_access_key"
+R2_SECRET_ACCESS_KEY: "your_secret_key"
+R2_BUCKET_NAME: "your_bucket"
+R2_CUSTOM_DOMAIN: "https://cdn.yourdomain.com"
+R2_KEY_PREFIX: "obsidian"
+
+# 2. s.ee (SM.MS) 配置
+SEE_API_TOKEN: "your_see_token"
+
+# 3. GitHub 图床配置
+GITHUB_PAT: "ghp_xxxxxxxxxxxx"
+GITHUB_OWNER: "your_github_username"
+GITHUB_REPO: "your_image_repo"
+GITHUB_BRANCH: "main"
+GITHUB_BASE_PATH: "images"
+GITHUB_CDN_BASE: "https://cdn.jsdelivr.net/gh/your_github_username/your_image_repo@main"
+
+# 4. Medium API 配置
+MEDIUM_INTEGRATION_TOKEN: "your_medium_token"
+
+# 5. X (Twitter) 配置
+X_API_KEY: "your_api_key"
+X_API_SECRET: "your_api_secret"
+X_ACCESS_TOKEN: "your_access_token"
+X_ACCESS_SECRET: "your_access_secret"

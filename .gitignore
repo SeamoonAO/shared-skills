@@ -1,0 +1,5 @@
+.DS_Store
+obsidian-image-uploader/acceptance-report.json
+obsidian-image-uploader/assets/template/node_modules/
+obsidian-image-uploader/assets/template/dist/
+obsidian-image-uploader/assets/template/config.yaml
