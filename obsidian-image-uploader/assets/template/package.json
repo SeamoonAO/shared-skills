@@ -1,0 +1,26 @@
+{
+  "name": "obsidian-image-uploader-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun x tsc -p tsconfig.json",
+    "start": "bun run src/index.ts",
+    "upload": "bun run src/index.ts",
+    "smoke": "bun run src/smokeTest.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.883.0",
+    "axios": "^1.11.0",
+    "dotenv": "^16.6.1",
+    "gray-matter": "^4.0.3",
+    "mime-types": "^3.0.1",
+    "p-limit": "^6.2.0",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/mime-types": "^3.0.1",
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
+}
