@@ -1,0 +1,7 @@
+interface:
+  display_name: "Self-Hosted Work"
+  short_description: "Protocol for higher-autonomy work"
+  default_prompt: "Use $self-hosted-work to continue this task in 强自治 mode."
+
+policy:
+  allow_implicit_invocation: false

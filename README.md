@@ -6,7 +6,7 @@ Shared skills used across Codex and Cursor.
 
 - `md-reformat`
 - `prompt-architect-zh`
-- `self-hosted-coding`
+- `self-hosted-work`
 
 ## Layout
 

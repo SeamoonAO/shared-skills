@@ -1,5 +1,7 @@
 # Self-Hosted Coding Implementation Plan
 
+> Historical note: this implementation plan has since evolved into the broader `self-hosted-work` skill.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Add a new `self-hosted-coding` skill to this repository with concise trigger metadata, explicit autonomy-mode rules, hard stop conditions, debugging escalation, and selective experience-capture guidance.

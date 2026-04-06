@@ -1,7 +1,0 @@
-interface:
-  display_name: "Self-Hosted Coding"
-  short_description: "Protocol for higher-autonomy coding"
-  default_prompt: "Use $self-hosted-coding to continue this coding task in 强自治 mode."
-
-policy:
-  allow_implicit_invocation: false

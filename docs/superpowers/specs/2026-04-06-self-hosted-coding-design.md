@@ -1,5 +1,7 @@
 # Self-Hosted Coding Design
 
+> Historical note: this design has since evolved into the broader `self-hosted-work` skill.
+
 **Date:** 2026-04-06
 
 **Goal:** Create a cross-platform skill that lets a user tell Codex, Cursor, or Claude Code to continue a coding task with higher autonomy, while still enforcing explicit stop rules, disciplined debugging, and selective experience capture.

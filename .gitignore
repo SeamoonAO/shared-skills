@@ -3,8 +3,8 @@
 .bin/
 .cursor/
 .superpowers/
-self-hosted-coding/logs/review-loop.log
-self-hosted-coding/logs/archive/
+self-hosted-work/logs/review-loop.log
+self-hosted-work/logs/archive/
 obsidian-image-uploader/acceptance-report.json
 obsidian-image-uploader/assets/template/node_modules/
 obsidian-image-uploader/assets/template/dist/
