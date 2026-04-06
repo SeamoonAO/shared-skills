@@ -35,6 +35,7 @@ Keep moving through analysis, implementation, testing, fixes, and re-verificatio
 
 - Continue until the task is genuinely complete, clearly blocked, or stopped by a hard rule.
 - Make reasonable local decisions without step-by-step approval.
+- Prefer conservative local assumptions over waiting for routine clarification.
 - Stop only for hard red lines, true blockers, or consequential ambiguity.
 
 ### `半自治`
@@ -62,9 +63,9 @@ Stop and ask before any of the following, regardless of mode:
 - modify critical prompts, automations, or system configuration without explicit authorization
 - weaken this skill or another governance/protocol file by expanding autonomy, loosening hard stops, or relaxing verification or memory discipline
 
-Pause for confirmation when several reasonable options exist and the choice would materially affect long-term maintenance, scope, or repo conventions.
+For non-hard-stop ambiguity, prefer conservative defaults and continue. Do not turn ordinary implementation questions into approval checkpoints.
 
-Also pause for confirmation when introducing or upgrading dependencies, or when changing validation and test strategy in a way that meaningfully expands scope.
+Pause only when several reasonable options exist and the choice would materially redirect long-term maintenance, scope, or repo conventions. The same applies when introducing or upgrading dependencies, or when changing validation and test strategy in a way that meaningfully expands scope.
 
 Do not treat a general instruction such as "go ahead", "keep going", or "if it looks good, push/deploy" as permission to cross a hard stop.
 
@@ -84,6 +85,18 @@ If `systematic-debugging` is available, use it. If it is not available, preserve
 
 Do not leave debugging mode just because one attempted fix seems promising. Exit only after the root cause is understood or the user explicitly accepts a bounded workaround.
 
+## Planning Discipline
+
+Use the lightest planning shape that keeps execution reliable:
+
+- simple task: keep a short todo only
+- medium task: build and maintain a minimal internal plan before or during execution
+- complex task: map the major files, stages, and verification path before making broad changes
+
+Escalate planning as complexity grows, not by default. Use plans to prevent drift, missed verification, and lost context.
+
+Call `writing-plans` only when the task needs a durable handoff artifact, long-running multi-stage execution, or explicit subtask decomposition that should survive context loss.
+
 ## Progress and Completion Discipline
 
 Borrow the sustained-iteration discipline of `ralph-loop` without requiring an actual loop.
@@ -96,13 +109,26 @@ Borrow the sustained-iteration discipline of `ralph-loop` without requiring an a
 Start a real `ralph-loop` only when the user explicitly asks for one and the current platform supports it.
 Before claiming completion, use `verification-before-completion` if it is available; otherwise apply the same evidence-first rule manually.
 
+## Soft Pause Discipline
+
+In `强自治`, progress updates are for synchronization, not permission. If the user is quiet and no hard stop has fired, keep moving along the most conservative viable path.
+
+Use a soft pause only when a brief user answer could reduce rework on a consequential but non-hard-stop choice. When that happens:
+
+- state the question, the recommended option, and why that option is the conservative path
+- if the current platform or external orchestrator supports timed resume, a short countdown such as about two minutes may be used before continuing with the recommended option, using `scripts/timed_soft_pause.py` or an equivalent helper when useful
+- never use timed resume for hard stops
+- if timed resume is unavailable, do not pretend it exists; either continue with the conservative choice in `强自治` or wait normally in `半自治`
+
 ## Self-Assessment
 
 During execution, reassess these states:
 
 - boundary state: are you approaching a hard stop or a tighter user boundary
 - mode state: does the current reply approve only the next stage, or actually change the mode
+- planning state: is a todo enough, or has the task crossed the threshold for a minimal or formal plan
 - failure state: should this switch into `systematic-debugging`
+- pause state: is this truly a hard stop or soft pause, or should it be resolved locally
 - completion state: is the evidence strong enough to claim the task is done
 - lesson state: is there a distilled, cross-project protocol insight worth recording as a candidate
 
@@ -152,5 +178,8 @@ Keep this protocol platform-agnostic across Codex, Cursor, and Claude Code.
 
 - Prefer helper skills or tools available in the current environment.
 - If a helper skill is unavailable, preserve the behavior manually instead of dropping it.
+- Distinguish platform-native `Plan Mode` from internal plan/todo scaffolding. Native plan mode is a session-level planning constraint; internal plans are execution aids.
+- If the platform is already in a native `Plan Mode`, respect that mode and produce a decision-complete plan instead of silently treating it like ordinary execution state.
 - Do not rely on Cursor-only hooks, files, or loop mechanics.
+- Treat timed soft pause as an optional accelerator that needs platform or orchestrator support, not as a guaranteed built-in capability.
 - Treat `ralph-loop` and `continual-learning` as optional accelerators, not hard dependencies.
