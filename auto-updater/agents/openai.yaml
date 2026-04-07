@@ -1,0 +1,7 @@
+interface:
+  display_name: "Local Auto-Updater"
+  short_description: "Safely update Codex/Cursor local skill sources"
+  default_prompt: "Run $auto-updater in safe-update mode and summarize updates, skips, failures, and repaired links."
+
+policy:
+  allow_implicit_invocation: false

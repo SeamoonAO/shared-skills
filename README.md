@@ -4,6 +4,7 @@ Shared skills used across Codex and Cursor.
 
 ## Included Skills
 
+- `auto-updater`
 - `md-reformat`
 - `prompt-architect-zh`
 - `self-hosted-work`

@@ -1,0 +1,35 @@
+{
+  "sources": [
+    {
+      "name": "shared-skills",
+      "strategy": "git",
+      "root": "/Users/aoshi/code/shared-skills"
+    },
+    {
+      "name": "baoyu-skills",
+      "strategy": "git",
+      "root": "/Users/aoshi/code/skill-tools/baoyu-skills"
+    },
+    {
+      "name": "ljg-skills",
+      "strategy": "github_archive",
+      "root": "/Users/aoshi/code/skill-tools/ljg-skills",
+      "repo": "lijigang/ljg-skills",
+      "ref": "master",
+      "metadata_file": ".auto-updater-source.json"
+    },
+    {
+      "name": "superpowers",
+      "strategy": "github_archive",
+      "root": "/Users/aoshi/code/skill-tools/superpowers",
+      "repo": "obra/superpowers",
+      "ref": "main",
+      "metadata_file": ".auto-updater-source.json"
+    },
+    {
+      "name": "cursor-plugins",
+      "strategy": "manual",
+      "root": "/Users/aoshi/code/skill-tools/cursor-plugins"
+    }
+  ]
+}
