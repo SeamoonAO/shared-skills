@@ -134,6 +134,12 @@ Exclude:
     - `亚马逊明确禁止使用以下成分`
     - `明确禁止使用以下成分`
     - `以下成分`
+    - `亚马逊商城`
+    - `违反本政策`
+    - `销售此类商品`
+    - `不提供赔偿`
+    - `所采购和销售的商品`
+    - `承诺辅助`
 11. If a section label contains the real legal object, keep only the legal object. For example:
     - Bad: `禁售商品示例`
     - Good: `酒精饮料`
