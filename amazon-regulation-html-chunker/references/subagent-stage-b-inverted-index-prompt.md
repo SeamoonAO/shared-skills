@@ -140,6 +140,8 @@ Exclude:
     - `不提供赔偿`
     - `所采购和销售的商品`
     - `承诺辅助`
+    - `child safety policy`
+    - `toy compliance`
 11. If a section label contains the real legal object, keep only the legal object. For example:
     - Bad: `禁售商品示例`
     - Good: `酒精饮料`
@@ -149,6 +151,7 @@ Exclude:
     - Good: `纸币`
     - Bad: `亚马逊明确禁止使用以下成分`
     - Good: `比马前列素`
+12. For product-screening retrieval, exclude standalone enforcement-consequence terms unless they are necessary to express the regulated product/status itself. For example, drop standalone terms like `销售权限`, `销售权限被暂停`, `销售权限永久撤销`, `暂停`, `永久撤销`, `销毁库存`, `扣留汇款`, and `没收付款`; keep product/status terms like `召回商品`, `市场撤出`, `停止销售的商品`, or `被召回的商品`.
 
 ### 7) Cardinality and ordering
 
