@@ -116,6 +116,33 @@ Exclude:
 7. Generic section labels or page titles that are not official regulatory names (for example `禁售商品示例`, `准售商品示例`, `食品和饮料`, `武器`).
 8. Broad seed-only domain phrases without direct chunk evidence (for example `weapon-related product`, `firearm accessory`, `restricted weapon component` when the chunk does not itself express those phrases or a concrete equivalent).
 9. Terms that merely restate structural headings or heading-path labels without adding retrieval specificity. If a candidate term is just the chunk heading, a heading-path component, or a generic wrapper around the real rule, drop it unless it is itself an official rule/program/citation name.
+10. Exact generic selling-status section labels, even when they appear in the chunk text. Always delete these exact labels if they appear as standalone terms:
+    - `禁售商品示例`
+    - `禁止出售的商品示例`
+    - `准售商品示例`
+    - `条件性准售商品示例`
+    - `我们的政策`
+    - `我们的通用灯具政策`
+    - `相关的亚马逊帮助页面`
+    - `其他信息`
+    - `其他资源`
+    - `资源`
+    - `不得在亚马逊上销售以下商品`
+    - `不得销售以下商品`
+    - `禁止销售以下商品`
+    - `示例包括但不限于`
+    - `亚马逊明确禁止使用以下成分`
+    - `明确禁止使用以下成分`
+    - `以下成分`
+11. If a section label contains the real legal object, keep only the legal object. For example:
+    - Bad: `禁售商品示例`
+    - Good: `酒精饮料`
+    - Bad: `准售商品示例`
+    - Good: `硬币收藏品`
+    - Bad: `不得在亚马逊上销售以下商品`
+    - Good: `纸币`
+    - Bad: `亚马逊明确禁止使用以下成分`
+    - Good: `比马前列素`
 
 ### 7) Cardinality and ordering
 
@@ -169,3 +196,7 @@ Build `final_terms` progressively instead of dumping all candidates at once.
 6. Low-relevance chunks should stay intentionally sparse rather than padded.
 7. Do not leak generic page scope, section labels, or seed-only broad domain terms into `final_terms`.
 8. If a term would still make sense after removing the current page title and section label, keep it; otherwise drop it.
+9. Perform a final deletion pass over `final_terms`: remove any term that exactly equals a generic heading label listed in Anti-noise rule 10.
+10. For chunks under `禁售商品示例` / `禁止出售的商品示例`, the useful terms are the prohibited product classes, materials, conditions, documents, and legal anchors, not the label itself.
+11. For chunks introduced by lead-in text such as `不得在亚马逊上销售以下商品`, keep the listed prohibited items and conditions; delete the lead-in itself.
+12. For chunks introduced by lead-in text such as `亚马逊明确禁止使用以下成分`, keep the actual banned ingredients or substances; delete the lead-in itself.
