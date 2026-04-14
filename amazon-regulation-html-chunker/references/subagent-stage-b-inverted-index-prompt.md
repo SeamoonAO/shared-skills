@@ -152,6 +152,7 @@ Exclude:
     - Bad: `亚马逊明确禁止使用以下成分`
     - Good: `比马前列素`
 12. For product-screening retrieval, exclude standalone enforcement-consequence terms unless they are necessary to express the regulated product/status itself. For example, drop standalone terms like `销售权限`, `销售权限被暂停`, `销售权限永久撤销`, `暂停`, `永久撤销`, `销毁库存`, `扣留汇款`, and `没收付款`; keep product/status terms like `召回商品`, `市场撤出`, `停止销售的商品`, or `被召回的商品`.
+13. If the chunk text contains only a bare child item under a meaningful parent scope, inject the smallest useful parent scope into `final_terms`. For example, under `质保、服务方案、合约和担保 > 禁止出售的商品示例`, do not output only `替代方案`; add scoped variants such as `质保替代方案` or `服务方案替代方案`.
 
 ### 7) Cardinality and ordering
 
