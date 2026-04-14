@@ -210,3 +210,4 @@ Build `final_terms` progressively instead of dumping all candidates at once.
 10. For chunks under `禁售商品示例` / `禁止出售的商品示例`, the useful terms are the prohibited product classes, materials, conditions, documents, and legal anchors, not the label itself.
 11. For chunks introduced by lead-in text such as `不得在亚马逊上销售以下商品`, keep the listed prohibited items and conditions; delete the lead-in itself.
 12. For chunks introduced by lead-in text such as `亚马逊明确禁止使用以下成分`, keep the actual banned ingredients or substances; delete the lead-in itself.
+13. For chunks introduced by lead-in text such as `亚马逊禁止发布或销售...`, keep the prohibited product class and regulatory condition; delete the full platform-action sentence itself.
