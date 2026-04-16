@@ -1,0 +1,7 @@
+interface:
+  display_name: "Amazon HTML Chunker"
+  short_description: "Two-stage LLM pipeline for Amazon regulations: semantic chunking first, then per-chunk final_terms indexing."
+  default_prompt: "Use $amazon-regulation-html-chunker in two stages: Stage A generates doc-level semantic chunks from page_profile + chunk_packet + seed_terms; Stage B generates chunk-level final_terms only (no final_title), then merge/export JSON and Excel."
+
+policy:
+  allow_implicit_invocation: true

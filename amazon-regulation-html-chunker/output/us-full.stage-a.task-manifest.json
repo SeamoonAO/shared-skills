@@ -1,0 +1,1462 @@
+{
+  "generated_at": "2026-04-09T11:33:32+00:00",
+  "source_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+  "task_count": 44,
+  "stage_counts": {
+    "A": 44
+  },
+  "tasks": [
+    {
+      "task_id": "a-task-0001",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0001-A-us_GZ4E8J47K2YNXLQ9.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0001-A-us_GZ4E8J47K2YNXLQ9.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 1,
+      "doc_id": "us_GZ4E8J47K2YNXLQ9",
+      "chunk_id": "",
+      "packet_count": 10,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0002",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0002-A-us_GNPGY2ZEUMKSA62F.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0002-A-us_GNPGY2ZEUMKSA62F.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 2,
+      "doc_id": "us_GNPGY2ZEUMKSA62F",
+      "chunk_id": "",
+      "packet_count": 34,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0003",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0003-A-us_GJJPTVHXVDA5PAG7.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0003-A-us_GJJPTVHXVDA5PAG7.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 3,
+      "doc_id": "us_GJJPTVHXVDA5PAG7",
+      "chunk_id": "",
+      "packet_count": 31,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0004",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0004-A-us_GK9K2S3L8J2QJW22.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0004-A-us_GK9K2S3L8J2QJW22.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 4,
+      "doc_id": "us_GK9K2S3L8J2QJW22",
+      "chunk_id": "",
+      "packet_count": 31,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0005",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0005-A-us_G200685320.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0005-A-us_G200685320.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 5,
+      "doc_id": "us_G200685320",
+      "chunk_id": "",
+      "packet_count": 39,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0006",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0006-A-us_G200164670.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0006-A-us_G200164670.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 6,
+      "doc_id": "us_G200164670",
+      "chunk_id": "",
+      "packet_count": 38,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0007",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0007-A-us_GJS7C6DGM9BD6L4B.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0007-A-us_GJS7C6DGM9BD6L4B.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 7,
+      "doc_id": "us_GJS7C6DGM9BD6L4B",
+      "chunk_id": "",
+      "packet_count": 2,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0008",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0008-A-us_G5ER6LTGH2GFJLHQ.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0008-A-us_G5ER6LTGH2GFJLHQ.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 8,
+      "doc_id": "us_G5ER6LTGH2GFJLHQ",
+      "chunk_id": "",
+      "packet_count": 45,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0009",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0009-A-us_G200164370.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0009-A-us_G200164370.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 9,
+      "doc_id": "us_G200164370",
+      "chunk_id": "",
+      "packet_count": 49,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0010",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0010-A-us_GVT4E3624NJ6DRS9.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0010-A-us_GVT4E3624NJ6DRS9.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 10,
+      "doc_id": "us_GVT4E3624NJ6DRS9",
+      "chunk_id": "",
+      "packet_count": 8,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0011",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0011-A-us_G200164470.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0011-A-us_G200164470.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 11,
+      "doc_id": "us_G200164470",
+      "chunk_id": "",
+      "packet_count": 116,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0012",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0012-A-us_GEU8B9UPLKJHKU9G.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0012-A-us_GEU8B9UPLKJHKU9G.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 12,
+      "doc_id": "us_GEU8B9UPLKJHKU9G",
+      "chunk_id": "",
+      "packet_count": 3,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0013",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0013-A-us_G200164570.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0013-A-us_G200164570.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 13,
+      "doc_id": "us_G200164570",
+      "chunk_id": "",
+      "packet_count": 65,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0014",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0014-A-us_GEENN56JW9QU8MJS.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0014-A-us_GEENN56JW9QU8MJS.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 14,
+      "doc_id": "us_GEENN56JW9QU8MJS",
+      "chunk_id": "",
+      "packet_count": 6,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0015",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0015-A-us_G200164750.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0015-A-us_G200164750.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 15,
+      "doc_id": "us_G200164750",
+      "chunk_id": "",
+      "packet_count": 9,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0016",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0016-A-us_GKY5NBH8EHAUFQ27.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0016-A-us_GKY5NBH8EHAUFQ27.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 16,
+      "doc_id": "us_GKY5NBH8EHAUFQ27",
+      "chunk_id": "",
+      "packet_count": 9,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0017",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0017-A-us_G202089380.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0017-A-us_G202089380.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 17,
+      "doc_id": "us_G202089380",
+      "chunk_id": "",
+      "packet_count": 100,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0018",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0018-A-us_G202115120.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0018-A-us_G202115120.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 18,
+      "doc_id": "us_G202115120",
+      "chunk_id": "",
+      "packet_count": 99,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0019",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0019-A-us_GX2ZFS3DLL64ULGW.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0019-A-us_GX2ZFS3DLL64ULGW.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 19,
+      "doc_id": "us_GX2ZFS3DLL64ULGW",
+      "chunk_id": "",
+      "packet_count": 11,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0020",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0020-A-us_GPTP4H6LKXXUDTZF.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0020-A-us_GPTP4H6LKXXUDTZF.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 20,
+      "doc_id": "us_GPTP4H6LKXXUDTZF",
+      "chunk_id": "",
+      "packet_count": 8,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0021",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0021-A-us_G8V5URH2QPKMY3NS.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0021-A-us_G8V5URH2QPKMY3NS.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 21,
+      "doc_id": "us_G8V5URH2QPKMY3NS",
+      "chunk_id": "",
+      "packet_count": 10,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0022",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0022-A-us_G200164850.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0022-A-us_G200164850.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 22,
+      "doc_id": "us_G200164850",
+      "chunk_id": "",
+      "packet_count": 13,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0023",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0023-A-us_G201737480.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0023-A-us_G201737480.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 23,
+      "doc_id": "us_G201737480",
+      "chunk_id": "",
+      "packet_count": 46,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0024",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0024-A-us_G200164410.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0024-A-us_G200164410.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 24,
+      "doc_id": "us_G200164410",
+      "chunk_id": "",
+      "packet_count": 49,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0025",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0025-A-us_GJQMR3AUDBH6RXR5.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0025-A-us_GJQMR3AUDBH6RXR5.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 25,
+      "doc_id": "us_GJQMR3AUDBH6RXR5",
+      "chunk_id": "",
+      "packet_count": 61,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0026",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0026-A-us_G201689020.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0026-A-us_G201689020.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 26,
+      "doc_id": "us_G201689020",
+      "chunk_id": "",
+      "packet_count": 80,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0027",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0027-A-us_G200164910.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0027-A-us_G200164910.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 27,
+      "doc_id": "us_G200164910",
+      "chunk_id": "",
+      "packet_count": 27,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0028",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0028-A-us_G201997070.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0028-A-us_G201997070.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 28,
+      "doc_id": "us_G201997070",
+      "chunk_id": "",
+      "packet_count": 17,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0029",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0029-A-us_G200164950.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0029-A-us_G200164950.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 29,
+      "doc_id": "us_G200164950",
+      "chunk_id": "",
+      "packet_count": 160,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0030",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0030-A-us_G200166630.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0030-A-us_G200166630.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 30,
+      "doc_id": "us_G200166630",
+      "chunk_id": "",
+      "packet_count": 26,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0031",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0031-A-us_G200164510.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0031-A-us_G200164510.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 31,
+      "doc_id": "us_G200164510",
+      "chunk_id": "",
+      "packet_count": 24,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0032",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0032-A-us_GHXJGN6T5K8HGGWW.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0032-A-us_GHXJGN6T5K8HGGWW.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 32,
+      "doc_id": "us_GHXJGN6T5K8HGGWW",
+      "chunk_id": "",
+      "packet_count": 48,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0033",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0033-A-us_G200164870.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0033-A-us_G200164870.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 33,
+      "doc_id": "us_G200164870",
+      "chunk_id": "",
+      "packet_count": 10,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0034",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0034-A-us_GFVTL7E262KFAAXC.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0034-A-us_GFVTL7E262KFAAXC.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 34,
+      "doc_id": "us_GFVTL7E262KFAAXC",
+      "chunk_id": "",
+      "packet_count": 16,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0035",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0035-A-us_GKJXWS7VY64WZZ7K.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0035-A-us_GKJXWS7VY64WZZ7K.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 35,
+      "doc_id": "us_GKJXWS7VY64WZZ7K",
+      "chunk_id": "",
+      "packet_count": 48,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0036",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0036-A-us_G201829010.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0036-A-us_G201829010.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 36,
+      "doc_id": "us_G201829010",
+      "chunk_id": "",
+      "packet_count": 90,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0037",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0037-A-us_G200164490.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0037-A-us_G200164490.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 37,
+      "doc_id": "us_G200164490",
+      "chunk_id": "",
+      "packet_count": 114,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0038",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0038-A-us_G200164450.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0038-A-us_G200164450.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 38,
+      "doc_id": "us_G200164450",
+      "chunk_id": "",
+      "packet_count": 30,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0039",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0039-A-us_G200164930.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0039-A-us_G200164930.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 39,
+      "doc_id": "us_G200164930",
+      "chunk_id": "",
+      "packet_count": 8,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0040",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0040-A-us_GRTV7X82BHXYCS9L.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0040-A-us_GRTV7X82BHXYCS9L.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 40,
+      "doc_id": "us_GRTV7X82BHXYCS9L",
+      "chunk_id": "",
+      "packet_count": 48,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0041",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0041-A-us_G200164730.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0041-A-us_G200164730.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 41,
+      "doc_id": "us_G200164730",
+      "chunk_id": "",
+      "packet_count": 10,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0042",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0042-A-us_G200164340.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0042-A-us_G200164340.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 42,
+      "doc_id": "us_G200164340",
+      "chunk_id": "",
+      "packet_count": 13,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0043",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0043-A-us_G200164550.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0043-A-us_G200164550.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 43,
+      "doc_id": "us_G200164550",
+      "chunk_id": "",
+      "packet_count": 26,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    },
+    {
+      "task_id": "a-task-0044",
+      "stage": "A",
+      "subagent_scope": "document",
+      "subagent_model": "gpt-5.3-codex-spark",
+      "fallback_subagent_models": [
+        "gpt-5.4-mini"
+      ],
+      "prompt_template_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/references/subagent-stage-a-semantic-chunk-prompt.md",
+      "preview_markdown_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.prompt-preview/0044-A-us_GX6ZFCE8L5J4SV2W.md",
+      "runner_input_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.runner-inputs/0044-A-us_GX6ZFCE8L5J4SV2W.runner.md",
+      "input_jsonl_path": "/Users/aoshi/code/shared-skills/amazon-regulation-html-chunker/output/us-full.stage-a.doc-packets.jsonl",
+      "input_record_number": 44,
+      "doc_id": "us_GX6ZFCE8L5J4SV2W",
+      "chunk_id": "",
+      "packet_count": 19,
+      "expected_output": {
+        "doc_id": "string",
+        "semantic_chunks": [
+          {
+            "chunk_id": "string",
+            "heading": "string",
+            "heading_path": "string",
+            "chunk_text": "string",
+            "chunk_source_url": "string",
+            "prev_context": "string",
+            "next_context": "string",
+            "screening_relevance_score": "integer(0-10)",
+            "screening_relevance_reason": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
